@@ -1,0 +1,11 @@
+.content {
+  padding-block: 5rem;
+  background: var(--gray-700);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding-inline: 1.5rem;
+  }
+}
